@@ -13,6 +13,7 @@
 		85C1360A1FFE514400AF9443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C136091FFE514400AF9443 /* Assets.xcassets */; };
 		85C1360D1FFE514400AF9443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C1360B1FFE514400AF9443 /* LaunchScreen.storyboard */; };
 		85C136101FFE514400AF9443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C1360F1FFE514400AF9443 /* main.m */; };
+		85C136191FFE5E5600AF9443 /* WYVideoRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C136181FFE5E5600AF9443 /* WYVideoRecordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		85C1360C1FFE514400AF9443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C1360E1FFE514400AF9443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C1360F1FFE514400AF9443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85C136171FFE5E5600AF9443 /* WYVideoRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYVideoRecordView.h; sourceTree = "<group>"; };
+		85C136181FFE5E5600AF9443 /* WYVideoRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYVideoRecordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		85C135F41FFE514400AF9443 = {
 			isa = PBXGroup;
 			children = (
+				85C136161FFE5E4400AF9443 /* WYVideoRecordView */,
 				85C135FF1FFE514400AF9443 /* WYVideoRecordViewDemo */,
 				85C135FE1FFE514400AF9443 /* Products */,
 			);
@@ -69,6 +73,16 @@
 				85C1360F1FFE514400AF9443 /* main.m */,
 			);
 			path = WYVideoRecordViewDemo;
+			sourceTree = "<group>";
+		};
+		85C136161FFE5E4400AF9443 /* WYVideoRecordView */ = {
+			isa = PBXGroup;
+			children = (
+				85C136171FFE5E5600AF9443 /* WYVideoRecordView.h */,
+				85C136181FFE5E5600AF9443 /* WYVideoRecordView.m */,
+			);
+			name = WYVideoRecordView;
+			path = ../WYVideoRecordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,7 @@
 				85C136051FFE514400AF9443 /* ViewController.m in Sources */,
 				85C136101FFE514400AF9443 /* main.m in Sources */,
 				85C136021FFE514400AF9443 /* AppDelegate.m in Sources */,
+				85C136191FFE5E5600AF9443 /* WYVideoRecordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
